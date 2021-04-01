@@ -1,4 +1,4 @@
-Shader "Test/Unlit"
+Shader "Test/UnlitForFunctionExplain"
 {
     Properties
     {
