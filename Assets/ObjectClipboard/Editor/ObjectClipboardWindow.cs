@@ -488,7 +488,12 @@ public class ObjectClipboardWindow : EditorWindow
                 // GameObject.Find 만으로 하지 않는 이유는, 이름만으로 체크하기에는 불안해서. 우연히 같은 이름이 있을지도.
                 if (GameObject.Find(activeObj.name) != null)
                 {
-                    Camera gameCam = (activeObj as GameObject).GetComponent<Camera>();
+                    GameObject go = activeObj as GameObject;
+                    if (go == null) // 유니티 2D본같은 경우 씬에서 선택은 가능하지만 GameObject는 아니라서 null
+                    {
+                        return null;
+                    }
+                    Camera gameCam = go.GetComponent<Camera>();
                     if (gameCam != null)
                     {
                         return gameCam;
