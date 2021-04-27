@@ -119,7 +119,7 @@ MonoBehaviour:
   _basicWaveSettings:
     numWaves: 6
     amplitude: 0.6
-    direction: -21
+    direction: -147
     wavelength: 8
   _foamSettings:
     foamType: 0

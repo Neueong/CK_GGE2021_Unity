@@ -1,6 +1,7 @@
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
-Shader "Skybox/Procedural" {
+// 셰이더 카테고리 충돌로 인해 Procedural --> ProceduralSampleScene 로 이름 변경
+Shader "Skybox/ProceduralSampleScene" {
 Properties {
 	_SunTint ("Sun Tint", Color) = (1, 1, 1, 1)
 	_SunStrength ("Sun Strength", Float) = 1.0
