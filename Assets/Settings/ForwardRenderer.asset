@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
   m_Name: ForwardRenderer
   m_EditorClassIdentifier: 
-  m_RendererFeatures:
-  - {fileID: 4266434004907962356}
-  m_RendererFeatureMap: f4af2f781f6b353b
+  m_RendererFeatures: []
+  m_RendererFeatureMap: 
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -43,22 +42,3 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
---- !u!114 &4266434004907962356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adbe377f4f72c497faee64bc3f0580b9, type: 3}
-  m_Name: NewWaterSystemFeature
-  m_EditorClassIdentifier: 
-  m_Active: 1
-  settings:
-    causticScale: 0.25
-    causticBlendDistance: 3
-    debug: 0
-  causticShader: {fileID: 4800000, guid: 90939d2e4b62841d29c136c866715501, type: 3}
-  causticTexture: {fileID: 2800000, guid: f395b7d64f44848c6a3cba1f1173fe90, type: 3}
